@@ -1,0 +1,20 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "supervisor index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "lowdb": "^7.0.1",
+    "nanoid": "^5.0.7",
+    "socket.io": "^4.7.5",
+    "supervisor": "^0.12.0"
+  }
+}
